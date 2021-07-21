@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/alf/cernbox/Chubut board/PCB/chubut/chubut.sch</source>
+    <date>Do 17 Jun 2021 14:56:03</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Chubut board</title>
+        <company>Universität Zürich</company>
+        <rev>1</rev>
+        <date>2021-06-15</date>
+        <source>chubut.sch</source>
+        <comment number="1" value="LGAD test board."/>
+        <comment number="2" value="This is almost a copy-paste replica of the Santa Cruz board circuit."/>
+        <comment number="3" value="Matías Senger"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>BFP840FESD</value>
+      <footprint>chubut:TSFP-4-1</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BFP840FESD-DS-v02_00-EN.pdf?fileId=5546d46265f064ff01663896c6294eb9</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/infineon-technologies/BFP840FESDH6327XTSA1/3911480?s=N4IgTCBcDaIEIDEAKAOALABgQUQMoBEQBdAXyA</field>
+        <field name="Manufacturer">BFP840FESD</field>
+        <field name="Manufacturer number">Infineon</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_CEB" description="NPN transistor, collector/emitter/base"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE288C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>3.3n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ds.murata.co.jp/simsurfing/mlcc.html?partnumbers=%5B%22GRM033R71C332KA88%22%5D&amp;oripartnumbers=%5B%22GRM033R71C332KA88D%22%5D&amp;rgear=jomoqke&amp;rgearinfo=ch</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer number">GRM1555C1H332GE01D </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE3862</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>3.3n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ds.murata.co.jp/simsurfing/mlcc.html?partnumbers=%5B%22GRM033R71C332KA88%22%5D&amp;oripartnumbers=%5B%22GRM033R71C332KA88D%22%5D&amp;rgear=jomoqke&amp;rgearinfo=ch</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer number">GRM1555C1H332GE01D </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE462D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>3p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/products/en?keywords=490-11211-1-ND</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer number">GJM1555C1H3R0WB01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE5347</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>3k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/vishay-dale/TNPW04023K00BEED/541-9842-1-ND/9659110</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer number">TNPW04023K00BEED</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE5DA5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>500</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/53014/ch.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/vishay-sfernice/CH0402-500RGFPA/716-1158-1-ND/9170236</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer number">CH0402-500RGFPA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE6332</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>3.3n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ds.murata.co.jp/simsurfing/mlcc.html?partnumbers=%5B%22GRM033R71C332KA88%22%5D&amp;oripartnumbers=%5B%22GRM033R71C332KA88D%22%5D&amp;rgear=jomoqke&amp;rgearinfo=ch</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer number">GRM1555C1H332GE01D </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE6B27</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>OUTPUT</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet>https://www.muellerelectric.com/product_files/786/DS-BU-1420701851.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/mueller-electric-co/BU-1420701851/314-1703-ND/9950117</field>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer number">BU-1420701851</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C0BD9B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1SV307(TPH3,F)</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=2834&amp;prodName=1SV307</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/1SV307-TPH3-F/4516315?s=N4IgTCBcDaIIwGUBqBmADAdgBQBUAKAEigDQBiAlCALoC%2BQA</field>
+        <field name="Manufacturer">Toshiba</field>
+        <field name="Manufacturer number">1SV307(TPH3,F)</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BEA21F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1SV307(TPH3,F)</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=2834&amp;prodName=1SV307</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/1SV307-TPH3-F/4516315?s=N4IgTCBcDaIIwGUBqBmADAdgBQBUAKAEigDQBiAlCALoC%2BQA</field>
+        <field name="Manufacturer">Toshiba</field>
+        <field name="Manufacturer number">1SV307(TPH3,F)</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C16336</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1.5n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/kemet/C0805C152KDRACAUTO/8109828</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer number">C0805C152KDRACAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF9612</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28773/crcwce3.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/vishay-dale/CRCW040210K0FKEDC/541-3959-1-ND/7928642</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer number">CRCW040210K0FKEDC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C05BC7</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>RF shield cap</value>
+      <footprint>chubut:MS290-10_RF_Shield</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/856/s290-10_1-1595610.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Masach</field>
+        <field name="Manufacturer number">MS290-10F</field>
+        <field name="Mouser">https://www.mouser.ch/ProductDetail/Masach/MS290-10F?qs=CT2LuZh%2F7EMfHt0gClQBGg%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="RF_Shield_One_Piece" description="One-piece EMI RF shielding cabinet"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C095AE</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DUT LGAD</value>
+      <footprint>chubut:LGAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="chubut" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C098BF</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>+2.25V_IN</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet>https://www.muellerelectric.com/product_files/786/DS-BU-1420701851.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/mueller-electric-co/BU-1420701851/314-1703-ND/9950117</field>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer number">BU-1420701851</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C2BD7B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-6-ND/1913357</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer number">0805ZD106KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C26F33</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-6-ND/1913357</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer number">0805ZD106KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C266AF</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>22u</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LBR2012T220K%20%20&amp;u=M</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/taiyo-yuden/LBR2012T220K/1788938</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer number">LBR2012T220K</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C23CD7</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer number">C0402C102K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C1DF81</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/kemet/C0402C102K4RACTU/399-7755-1-ND/3471478</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer number">C0402C102K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C1D815</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>75</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/53014/ch.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/vishay-sfernice/CH0402-75RGFPA/716-1169-1-ND/9170237</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer number">CH0402-75RGFPA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE8047</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>500</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/53014/ch.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/vishay-sfernice/CH0402-500RGFPA/716-1158-1-ND/9170236</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Manufacturer number">CH0402-500RGFPA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C943EF</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>47u</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LBR2012T470K%20%20&amp;u=M</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/taiyo-yuden/LBR2012T470K/587-2047-2-ND/1788939</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer number">LBR2012T470K</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB10E0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1.5n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/kemet/C0805C152KDRACAUTO/8109828</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer number">C0805C152KDRACAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CC246A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1.5n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/kemet/C0805C152KDRACAUTO/8109828</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer number">C0805C152KDRACAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CC2BC9</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1.5n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/kemet/C0805C152KDRACAUTO/8109828</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer number">C0805C152KDRACAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CC338E</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>HV_in</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet>https://www.muellerelectric.com/product_files/786/DS-BU-1420701851.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.ch/product-detail/en/mueller-electric-co/BU-1420701851/314-1703-ND/9950117</field>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer number">BU-1420701851</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BFEAFE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_CEB">
+      <description>NPN transistor, collector/emitter/base</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_CEB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="RF_Shield_One_Piece">
+      <description>One-piece EMI RF shielding cabinet</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RF_Shield_One_Piece</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="chubut" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="pad" type="passive"/>
+        <pin num="2" name="GR" type="passive"/>
+        <pin num="3" name="back_side" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="chubut">
+      <uri>/home/alf/cernbox/Chubut board/PCB/chubut/chubut.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J6" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="2" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C10-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C5-Pad1)">
+      <node ref="D3" pin="3"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C8-Pad1)">
+      <node ref="L2" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C2-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C2-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J6-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C1-Pad2)">
+      <node ref="D3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+  </nets>
+</export>
