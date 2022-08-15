@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 0.0,
+          "height": 0.64,
+          "width": 0.54
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -113,8 +119,15 @@
         "min_via_diameter": 0.3,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -367,7 +380,7 @@
         "microvia_drill": 0.1,
         "name": "50Ω line",
         "nets": [
-          "Net-(C3-Pad1)"
+          "/OUT"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -378,7 +391,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 2.0,
+        "clearance": 1.9,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -387,7 +400,8 @@
         "microvia_drill": 0.1,
         "name": "High voltage",
         "nets": [
-          "Net-(J6-Pad1)"
+          "/HV1",
+          "/HV2"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
