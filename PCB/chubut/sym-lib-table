@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name chubut)(type Legacy)(uri ${KIPRJMOD}/chubut.lib)(options "")(descr ""))
+  (lib (name "chubut")(type "Legacy")(uri "${KIPRJMOD}/chubut.lib")(options "")(descr ""))
+  (lib (name "single_pad_LGAD")(type "Legacy")(uri "/home/alf/cernbox/projects/4DPixChip/analog_front_end/220310_carrier_board/220310_front_end_carrier_board/single_pad_LGAD.lib")(options "")(descr ""))
+  (lib (name "chubut-rescue")(type "Legacy")(uri "${KIPRJMOD}/chubut-rescue.lib")(options "")(descr ""))
 )
