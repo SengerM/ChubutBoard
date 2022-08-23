@@ -1078,7 +1078,7 @@
     (property "Footprint" "chubut:TSFP-4-1" (id 2) (at 163.83 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 158.75 109.22 0)
+    (property "Datasheet" "https://www.infineon.com/cms/en/product/rf/rf-transistor/low-noise-rf-transistors/bfp840fesd/" (id 3) (at 158.75 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digikey" "https://www.digikey.com/en/products/detail/infineon-technologies/BFP840FESDH6327XTSA1/3911480?s=N4IgTCBcDaIEIDEAKAOALABgQUQMoBEQBdAXyA" (id 4) (at 158.75 109.22 0)
