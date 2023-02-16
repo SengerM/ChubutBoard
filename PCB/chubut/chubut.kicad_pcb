@@ -12,6 +12,7 @@
     (company "Universität Zürich")
     (comment 1 "LGAD small test board.")
     (comment 2 "The circuit is almost the same as the Santa Cruz board but made smaller.")
+    (comment 9 "230216")
   )
 
   (layers
@@ -46177,7 +46178,7 @@
   (gr_text "M. Senger 221003\nChubut board" (at 97.278 50.159154) (layer "B.SilkS") (tstamp 1b843773-28b0-4836-8246-2adefc4a3d39)
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
   )
-  (gr_text "M. Senger 221003\nChubut board" (at 91.548 58.744 90) (layer "F.SilkS") (tstamp 091fc6d0-bf07-4223-aaa4-3724a4a0f528)
+  (gr_text "M. Senger ${COMMENT9}\nChubut board" (at 91.548 58.744 90) (layer "F.SilkS") (tstamp 091fc6d0-bf07-4223-aaa4-3724a4a0f528)
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
   (gr_text "+2.25 V" (at 124.398 94.394) (layer "F.SilkS") (tstamp 24c0f860-4485-4a54-81de-c2fc925033b3)
