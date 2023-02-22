@@ -46175,7 +46175,7 @@
   )
 
   (gr_rect (start 134.868 101.594) (end 87.998 27.094) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp db3b57ae-aca2-43fb-be02-4934f347c717))
-  (gr_text "M. Senger 221003\nChubut board" (at 97.278 50.159154) (layer "B.SilkS") (tstamp 1b843773-28b0-4836-8246-2adefc4a3d39)
+  (gr_text "M. Senger\nChubut board\n${COMMENT9}" (at 97.278 50.159154) (layer "B.SilkS") (tstamp 1b843773-28b0-4836-8246-2adefc4a3d39)
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
   )
   (gr_text "M. Senger ${COMMENT9}\nChubut board" (at 91.548 58.744 90) (layer "F.SilkS") (tstamp 091fc6d0-bf07-4223-aaa4-3724a4a0f528)
@@ -52809,7 +52809,7 @@
   (zone (net 0) (net_name "") (layers "In1.Cu" "In2.Cu") (tstamp 4e8edbe1-31d6-48ac-8680-979dd64867b9) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -52823,7 +52823,7 @@
   (zone (net 0) (net_name "") (layers "In1.Cu" "In2.Cu") (tstamp 534f1c19-7159-4a5e-b485-c79a52b6f4dd) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
